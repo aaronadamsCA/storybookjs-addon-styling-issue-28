@@ -1,0 +1,7 @@
+{
+  "name": "admin-web",
+  "build": {
+    "dockerfile": "./Dockerfile"
+  },
+  "postCreateCommand": ".devcontainer/install.sh"
+}
